@@ -1,0 +1,70 @@
+\documentclass[a4paper, 12pt]{article}
+\begin{document}
+	\title{Exercicios - Matematica Discreta}
+	\author{\textbf{Matheus Vieira dos Reis}}
+	\date{18/04/2018}
+	\maketitle
+	\parindent=0in
+	
+	\section{Logica}
+	\parskip=4pt 1.
+	\par
+	\parskip=8pt a) \emph {resposta:} [Eh uma proposicao, pois a frase pode ter um valor Verdadeiro ou Falso]
+	\parskip=8pt b) \emph {resposta:} [Nao eh uma proposicao, pois a frase eh muito ambigua, portanto nao pode ter valor Verdadeiro ou Falso]
+	\par
+	\parskip=4pt 2.
+	\par
+	\parskip=8pt a) \emph {resposta:} [As Violetas \emph{nao} sao azuis ou as Roas \emph{nao} sao Vermelhas \emph{infere} em Acucar ser Doce]
+	\par
+	\parskip=8pt b) \emph {resposta:} [Acucar eh Doce e Rosas \emph{nao} sao Vermelhas que \emph{se e somente se} Violetas forem Azuis]
+	\par
+	\parskip=4pt 3/
+	\par
+	a) \emph{resposta:}
+	\begin{center} \emph{Nao} eh Tautologia \end{center}
+	
+	\begin{center}
+	\begin{displaymath}
+	\begin{array}{|c|c|c||c|}
+	A & B & A \wedge B & A \wedge B\Longrightarrow B\\
+	\hline
+	V & V & V & V\\
+	V & F & F & V\\
+	F & V & F & V\\
+	F & F & V & F\\
+	\end{array}
+	\end{displaymath}
+	\end{center}
+	
+	\pagebreak
+	b) \emph{resposta:}
+	\begin{center} \emph{Nao} eh Tautologia \end{center}
+	
+	\begin{center}
+	\begin{displaymath}
+	\begin{array}{|c|c|c|c|c|c|c|c|}
+	A & B & A \wedge B & \neg(A \wedge B) & \neg A & B & \neg A \bigwedge B & \neg (A \wedge B) \Longleftrightarrow \neg A \wedge B\\
+	\hline
+	V & V & V & F & F & V & V & F\\
+	V & F & F & V & F & F & F & F\\
+	F & V & F & V & V & V & V & V\\
+	F & F & F & V & V & F & V & V\\
+	\end{array}
+	\end{displaymath}	
+	\end{center}
+	
+	\parskip=12pt
+	\section{Logica Proposicional}
+	\parskip=4pt 1.
+	\par
+	a) \emph{resposta:}\\
+	\to H(x)\colon x \ eh \ Humano\\
+	\to M(x)\colon x \ eh \ Mentiroso
+	
+	\begin{center}
+	\begin{displaymath}
+	\forall{x} \in H(x) \Longrightarrow x \in M
+	\end{displaymath}
+	\end{center}
+	
+\end{document}
